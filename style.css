@@ -81,7 +81,7 @@ header .nav ul li a:hover{
     }
     .section1 .textsection{
         width: 500px;
-        height: 300px;
+        height: 200px;
         position: relative;
         left: 50px;
     }
@@ -95,7 +95,6 @@ header .nav ul li a:hover{
    
     .section1 .textsection h1{
     position: absolute;
-    top: 10px;
     font-size: 60px;
     font-weight: bold;
     letter-spacing: -3px;
@@ -103,7 +102,7 @@ header .nav ul li a:hover{
 }
 .section1 .textsection p{
 position: absolute;
-top: 140px;
+top: 100px;
 color: rgb(116, 116, 116);
 }
 .section1 .textsection input{
@@ -116,7 +115,7 @@ height: 44px;
 outline: none;
 border: none;
 font-size: 14px;
-border-radius: 10px;
+border-radius: 30px;
 }
 .section1 .textsection input:hover{
 box-shadow:2px 20px 20px #ebdefc;
@@ -161,11 +160,13 @@ transition: all ease 0.2s;
     font-size: 40px;
     color:rgb(51, 51, 51) ;
     padding-bottom: 12px;
+    margin-bottom: 0;
    }
    .section2 .textsection1 P{
     color: rgb(116, 116, 116);
-    line-height: 25px;
+    line-height: 15px;
     margin-bottom: 2px;
+    margin-top: 0;
     text-align: justify;
    }
    .section2 .textsection1 input{
@@ -176,8 +177,9 @@ transition: all ease 0.2s;
     outline: none;
     border: none;
     font-size: 14px;
-    border-radius: 10px;
-    margin-top: 9px;
+    border-radius: 30px;
+    margin-top: 90px;
+    
    }
    .section2 .textsection1 input:hover{
     box-shadow:2px 20px 20px #ebdefc;
@@ -533,7 +535,7 @@ transition: all ease 0.2s;
             transform: translateX(-50%);
             bottom: 20px;
             font-weight: bold;
-            box-shadow:2px 2px 20px #9363fc;
+            box-shadow:2px 2px 10px #b293f3d5;
             border-radius: 10px;
            }
            .section6 .price1 .price2:hover h1{
@@ -745,13 +747,13 @@ header{
             width:100%;
             height: 230px;
            position: initial;
-           padding-top: 50px;
+           margin-top: 50px;
          }
          .section1 .textsection h3{
             position: relative;
             top: 5px;
             font-weight: lighter;
-            font-size: 12px;
+            font-size: 10px;
             font-weight: bold;
             top: 0px;
             padding-left: 30px;
@@ -764,7 +766,7 @@ header{
             top: 0px;
             padding-left: 30px;
             padding-right: 30px;
-            margin-top: 15px;
+            margin-top: 0px;
             font-size: 30px;
            letter-spacing: -2px;
         }
@@ -784,6 +786,7 @@ header{
             height: 34px;
            font-size: 10px;
            border-radius: 0px;
+           margin-top: 40px;
         }
 
         .section2{
@@ -820,15 +823,17 @@ header{
            .section2 .textsection1 h3{
             font-weight: bold;
             margin: 0;
-            font-size: 12px;
+            font-size: 10px;
             padding-left: 30px;
             padding-right: 30px;
+            padding-bottom: 0;
            }
            .section2 .textsection1 h1{
             font-size: 30px;
             padding-bottom:0px;
-            margin-top: 5px;
+            margin-top: 0px;
             margin-bottom: 0;
+            
             padding-left: 30px;
             padding-right: 30px;
            }
@@ -845,10 +850,11 @@ header{
            margin-left: 30px;
            border-radius: 0;
            font-size: 10px;
+           margin-top: 30px;
            }
 
            .section3{
-            height: 1460px;
+            height: 1400px;
             top: 140px;
            }
            .section3 .p1 h1{
@@ -858,18 +864,20 @@ header{
            font-size: 10px;
            }
            .section3 .p2{
-            height: 1340px;
+            height: 1200px;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
             top: 20px;
+            
            }
            .section3 .p2 .a2{
             height:550px;
             flex-direction: column;
+            top: 50px;
            }
            .section3 .p2 .a1{
-            top: -30px;
+            top: 25px;
             height:550px;
             flex-direction: column;
            }
@@ -884,22 +892,28 @@ header{
             width: 100%;
            margin: 20px;
            }
-
+           .section3 .p2 .a2 .d h1{
+            margin-top: 0;
+           }
+           .section3 .p2 .a1 .d h1{
+            margin-top: 0;
+           }
            .section3 .p2 .a2 .d p{
             font-size: 10px;
             padding-left: 70px;
             padding-right: 70px;
+            line-height: 15px;
            }
            .section3 .p2 .a1 .d p{
             font-size: 10px;
             padding-left: 70px;
             padding-right: 70px;
+            line-height: 15px;
            }
 
            .section4{
             width: 100%;
             height: 600px;
-            top: 200px;
             flex-direction: column;
             justify-content: space-evenly;
             top: 170px;
@@ -1060,7 +1074,8 @@ header{
             position: relative;
             justify-content: space-evenly;
            }
-           .section7 .f3 h1{rgb(111, 30, 30)
+           .section7 .f3 h1{
+            
             color: white;
             font-size: 13px;
             padding-bottom: 0;
@@ -1084,4 +1099,71 @@ header{
             padding-left: 0px;
             padding-right: 0;
            }
+}
+
+
+/*mobile view 2*/
+@media (max-width:1168px){
+    header .logo{
+        left: 100px;
+    }
+    header .nav{
+        right: 0px;
+    }
+    figure img{
+        height: 300px;
+    }
+   .section5 .line .line2 .d1 figure{
+    height: 300px;
+    width: 300px;
+   }
+   .section5 .line .line1 .d1 figure{
+    height: 300px;
+    width: 300px;
+   }
+   .section6 .price1 .price2{
+    margin-left: 7px;
+    margin-right: 7px;
+   }
+   .section2 .imgsection1 img{
+    height: 450px;
+   }
+   .section2 .imgsection1{
+   left: 0;
+   }
+   .section1 .textsection{
+      left: 0;
+      width: 340px;
+   }
+   .section1 .imgsection img{
+    height: 640px;
+    
+    }
+    .section1 .textsection h1{
+        margin-bottom: 0;
+        font-size: 45px;
+    }
+    .section1 .textsection input{
+     top: 260px;
+    }
+    .section2 .textsection1 input{
+       margin-top: 110px;
+       }
+    .section2 .textsection1 h1{
+        margin-top: 0;
+    }
+    .section2 .textsection1 h3{
+        margin-bottom: 0;
+    }
+    .section1 .textsection p{
+        margin-top: 0;
+    }
+    .section7 .f1{
+        width: 260px;
+       }
+       .section7 .f2{
+        width: 410px;
+       }
+       .section7 .f2 .email input{
+        width: 300px;
 }
