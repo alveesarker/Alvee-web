@@ -1103,7 +1103,7 @@ header{
 
 
 /*mobile view 2*/
-@media (max-width:1168px){
+@media (min-width:769px)and(max-width:1168px){
     header .logo{
         left: 100px;
     }
@@ -1166,4 +1166,5 @@ header{
        }
        .section7 .f2 .email input{
         width: 300px;
+       }
 }
