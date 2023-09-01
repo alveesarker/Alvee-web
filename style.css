@@ -105,7 +105,7 @@ position: absolute;
 top: 100px;
 color: rgb(116, 116, 116);
 }
-.section1 .textsection a input{
+.section1 .textsection input{
 position: absolute;
 top: 210px;
 color: white;
@@ -117,7 +117,7 @@ border: none;
 font-size: 14px;
 border-radius: 30px;
 }
-.section1 .textsection a input:hover{
+.section1 .textsection input:hover{
 box-shadow:2px 20px 20px #ebdefc;
 transition: all ease 0.2s;
 }
